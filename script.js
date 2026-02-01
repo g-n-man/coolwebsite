@@ -63,7 +63,7 @@ yesBtn.addEventListener("click", () => {
   prompt.hidden = true;
   result.hidden = false;
 
-  mainImage.src = "/images/after.jpg";
+  mainImage.src = "./images/after.jpg";
   mainImage.classList.add("big");
 });
 
