@@ -73,7 +73,7 @@ againBtn.addEventListener("click", () => {
   prompt.hidden = false;
   result.hidden = true;
 
-  mainImage.src = "/images/before.jpg";
+  mainImage.src = "./images/before.jpg";
   mainImage.classList.remove("big");
 
   question.textContent = "Reemskiii, will you be my Valentine?";
